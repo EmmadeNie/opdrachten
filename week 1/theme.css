@@ -1,0 +1,61 @@
+body {
+  font: arial;
+  font-size: 18px;
+}
+
+article {
+  border: 1.5px solid lightgrey;
+  border-radius: 10px;
+  width: 400px;
+  margin: 15px;
+  box-shadow: 1px 1px 2px lightgrey;
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 60px 60px 60px;
+    gap: 0px 0px;
+    grid-template-areas: ". ." ". ." ". .";
+
+  }
+  .name {
+    font-weight: bold;
+    color: pink;
+    background-color: purple;
+  }
+  .subtitle {
+    color: grey;
+    margin-bottom: 20px;
+  }
+  .foto {
+    margin-right: 15px;
+    width: 45px;
+    height: 45px;
+    justify-self: right;
+
+}
+  .card-buttons {
+    justify-content: center;
+    border-top: 0.5px solid lightgrey;
+    margin-left: 0;
+  }
+
+  .div1 {
+    grid-column: 1;
+    padding:10px;
+    background-color: pink;
+
+  }
+
+  .div2 {
+    grid-column: 1;
+    border-bottom: solid lightgrey;
+    border-width: 0.2px;
+   
+  }
+  .div3 {
+    grid-column: 1;
+    background-color: pink;
+    
+  }
+ 
