@@ -11,8 +11,6 @@ if (guess > range) {
 range++
 let random = Math.floor(Math.random() * range)
 
-alert(random)
-
 while (beurt > 0) {
     if (guess === random) {
         alert("You got it girl!")
